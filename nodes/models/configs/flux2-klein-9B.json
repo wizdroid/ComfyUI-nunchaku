@@ -1,0 +1,23 @@
+{
+  "model_class": "Flux2",
+  "model_config": {
+    "image_model": "flux2",
+    "in_channels": 128,
+    "out_channels": 128,
+    "vec_in_dim": null,
+    "context_in_dim": 12288,
+    "hidden_size": 4096,
+    "mlp_ratio": 3.0,
+    "num_heads": 32,
+    "depth": 8,
+    "depth_single_blocks": 24,
+    "axes_dim": [32, 32, 32, 32],
+    "theta": 2000,
+    "patch_size": 1,
+    "qkv_bias": true,
+    "guidance_embed": false,
+    "txt_ids_dims": [1, 2],
+    "global_modulation": true,
+    "disable_unet_model_creation": true
+  }
+}
